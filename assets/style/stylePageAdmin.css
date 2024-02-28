@@ -1,0 +1,36 @@
+main>div {
+    width:96%;
+    display: flex;
+}
+main h1 {
+    width:20%;
+}
+main h2 {
+    width:5%;
+    text-align: center;
+}
+main p {
+    width:20%;
+}
+main footer {
+    width:20%;
+    text-align: center;
+}
+main div div {
+    width:20%;
+    text-align: center;
+}
+
+footer button {
+    visibility: hidden;
+}
+main>div {
+    margin: 0;
+}
+body>form {
+    display:none;
+}
+body form {
+    flex-direction: row;
+    background-color:lightsalmon;
+}

@@ -1,0 +1,106 @@
+body {
+    background-color: black;
+    color:white;
+}
+
+header {
+    background-color: darkred;
+    color:greenyellow;
+    display:flex;
+    justify-content: space-evenly;
+    font-size:20px;
+    padding: 10px 0;
+    border-radius: 15px;
+    margin-bottom:25px;
+}
+header a {
+    border: solid 2px white;
+    padding:5px;
+}
+a:visited, a:link {
+    text-decoration: none;
+    color:greenyellow;
+}
+main {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main>div {
+    background-color: darkslateblue;
+    width:24%;
+    display: block;
+    margin: 3px;
+    padding-bottom: 5px;
+    border: white solid 1px;
+    border-radius: 20px;
+}
+main h1 {
+    font-size:16px;
+    margin: 5px;
+    color: lightpink;
+    text-align: center;
+}
+main h2 {
+    font-size:10px;
+    margin: 5px;
+    color: lightpink;
+    text-align: end;
+}
+main p {
+    font-size:12px;
+    margin: 5px;
+    color:lightsalmon;
+}
+main footer {
+    font-size:12px;
+    margin: 5px;
+    color: lightpink;
+    text-align: end;
+}
+main bouton {
+    font-size:15px;
+    border: black solid 2px;
+    border-radius: 100%;
+    padding:3px;
+    color: black;
+    background-color:lightpink;
+}
+main div div {
+    display:inline-block;
+    margin: 0;
+    margin-top:15px;
+    width:100%;
+    align-items: center;
+    text-align: center;
+}
+
+form {
+    background-color: darkslategray;
+    display:flex;
+    flex-direction: column;
+    margin-top:20px;
+}
+form div {
+    padding: 20px;
+    width:180px;
+    display: inline-block;
+}
+
+footer button:first-child {
+    visibility: hidden;
+}
+body>footer{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+}
+body>footer{
+    margin-top:10px;
+}
+button {
+    background-color:darkslateblue;
+    border: white 2px solid;
+    color:white;
+}

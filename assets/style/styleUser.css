@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    color:black;
+}
+header {
+    background-color: lightcoral;
+    color:darkgreen;
+}
+a:visited, a:link {
+    color:darkgreen;
+}
+main>div {
+    background-color: lightblue;
+    border: black solid 1px;
+}
+main h1 {
+    color: darkmagenta;
+}
+main h2 {
+    color: darkmagenta;
+}
+main p {
+    color:darkorchid;
+}
+main footer {
+    color: darkviolet;
+}
+main bouton {
+    border: black solid 2px;
+    color: white;
+    background-color:darkmagenta;
+}
+form {
+    background-color: lightblue;
+}
+footer button {
+    background-color:darkorchid;
+    border: black 2px solid;
+    color:white;
+}
